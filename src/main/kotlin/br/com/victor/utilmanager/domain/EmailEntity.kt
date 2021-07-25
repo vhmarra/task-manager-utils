@@ -12,21 +12,21 @@ class EmailEntity {
     val id: Long? = null
 
     @Column(name = "message")
-    val message: String? = null
+    var message: String? = null
 
     @Column(name = "email_subject")
-    val emailSubject: String? = null
+    var emailSubject: String? = null
 
     @Column(name = "email_address")
-    val emailAddress: String? = null
+    var emailAddress: String? = null
 
     @Column(name = "date_created")
-    val dateCreated: LocalDateTime? = null
+    var dateCreated: LocalDateTime? = null
 
     @Column(name = "date_sented")
-    val dateSented: LocalDateTime? = null
+    var dateSented: LocalDateTime? = null
 
     @Column(name = "sented")
-    val sented: Int? = null
+    var sented: Int? = null
 
 }
