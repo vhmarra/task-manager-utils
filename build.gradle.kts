@@ -30,7 +30,8 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	compileOnly("org.projectlombok:lombok")
-	runtimeOnly("mysql:mysql-connector-java")
+	//runtimeOnly("mysql:mysql-connector-java")
+	implementation("org.postgresql:postgresql:42.5.1")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
